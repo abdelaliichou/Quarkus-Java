@@ -21,6 +21,13 @@ Run the api:
 ```bash
 ./application/api/api-core/target/api-core-999-SNAPSHOT-runner 
 ```
+
+Or Quarkus dev mode for fast runs and testings locally 
+
+```bash
+./mvnw quarkus:dev -pl application/api/api-core -am -Dquarkus.profile=dev
+```
+
 Check if the api is up and running:
 
 ```bash
